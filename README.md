@@ -1,4 +1,5 @@
-Git Hook to add PMT Ticket number
+## GoGitHooks to add PMT Ticket number
+
 This repository includes a Go script and a git hook integrated 
 with Lefthook that checks if a commit message contains a JIRA ticket number ( or what ever PMT you use ).
 If a JIRA ticket number is not found in the commit message, the script will prepend the JIRA ticket number derived from the branch name to the commit message.
